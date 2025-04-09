@@ -16,9 +16,11 @@ ul {
   border: 2px solid #2b7fff;
   border-radius: 32px;
   cursor: pointer;
+  padding: auto ;
 }
 
 .button:hover {
   color: #011c44;
   background-color: transparent;
 }
+
