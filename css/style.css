@@ -11,6 +11,12 @@
 /* Base */
 body {
   color: var(--primary-color-dark-blue);
+  font-size: 18px;
+  font-weight: 400;
+}
+h2 {
+  font-size: 64px;
+  font-weight: 700;
 }
 h2 span {
   color: var(--primary-color-light-blue);
@@ -23,13 +29,24 @@ ul {
 /* Link */
 .link {
   color: var(--primary-color-dark-blue);
+  font-size: 17px;
+  font-weight: 400;
 }
 
 .link:hover {
   color: var(--primary-color-light-blue);
+  font-size: 18px;
+  font-weight: 800;
 }
 
-/* Button */
+/* Hero section */
+
+.Hero-title {
+  color: var(--primary-color-light-blue);
+  font-size: 140px;
+  font-weight: 700;
+  line-height: 81.428571%; /* 114/140 */
+}
 
 .button {
   color: #ffffff;
@@ -38,15 +55,54 @@ ul {
   border-radius: 32px;
   cursor: pointer;
   padding: auto;
+  height: 53px;
+  width: 219px;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .button:hover {
   color: var(--primary-color-dark-blue);
   background-color: transparent;
 }
+/* About_us-section */
 
-/* Hero section */
+.about_us-text {
+  font-size: 22px;
+  line-height: 172.727273%; /* 38/22 */
+}
 
-.Hero-title {
+.about_us-text span {
+  font-weight: 600;
+}
+/* why_us-section */
+
+/* procedures-section */
+.procedures-item {
+  font-size: 22px;
+  line-height: 118.181818%; /* 26/22 */
+  color: violet; /*замінити на білий*/
+}
+.contact-text {
+  font-size: 22px;
+  font-weight: 600;
+  color: violet; /*замінити на білий*/
+}
+
+.contact-text span {
   color: var(--primary-color-light-blue);
 }
+.contact-txt {
+font-size: 12px;
+font-weight: 400;
+line-height: 150%; /* 18/12 */
+color: var(--secondary-color-light-grey);
+}
+.contact-txt  span {
+   text-decoration: underline;}
+
+   /* Footer section */
+   .adress-copyright {
+    font-size: 13px;
+    color: var(--secondary-color-light-grey);
+       }
