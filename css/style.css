@@ -1,11 +1,10 @@
-/* play-700 - latin
-@font-face {
+ @font-face {
   font-display: swap;
   font-family: 'Play';
   font-weight: 700;
-  src: url('../fonts/play-v19-latin-700.woff2') format('woff2');
-} */
-/* roboto-regular - latin */
+  src: url('../fonts/Play-v19-Latin-700.woff2') format('woff2');
+}
+
 @font-face {
   font-display: swap;
   font-family: 'Roboto';
@@ -38,12 +37,27 @@
 }
 
 /* Base */
+* {
+  box-sizing: border-box;
+}
+
 body {
   color: var(--primary-color-dark-blue);
   font-size: 18px;
   font-weight: 400;
   font-family: 'Roboto', sans-serif;
+  margin: 0;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
 h2 {
   font-size: 64px;
   font-weight: 700;
@@ -55,6 +69,12 @@ h2 span {
 
 ul {
   list-style-type: none;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1288px;
+  width: 100%;
+  padding: 0 24px;
 }
 
 /* Link */
@@ -72,14 +92,19 @@ ul {
 }
 
 /* Hero section */
+.hero-section {
+  padding-top: 16.5px;
+  padding-bottom: 98px;
+}
 
-.Hero-title {
+.hero-title {
   font-family: 'Play', sans-serif;
   color: var(--primary-color-light-blue);
   font-size: 140px;
   font-weight: 700;
   line-height: 81.428571%; /* 114/140 */
   text-transform: capitalize;
+  margin-bottom: 40px;
 }
 
 .button {
@@ -92,14 +117,19 @@ ul {
   width: 219px;
   font-size: 18px;
   font-weight: 600;
+  margin-bottom: 14px;
 }
 
 .button:hover {
   color: var(--primary-color-dark-blue);
   background-color: transparent;
 }
-/* About_us-section */
 
+/* About_us-section */
+.about_us-section {
+  padding-top: 98px;
+  padding-bottom: 88px;
+}
 .about_us-text {
   font-size: 22px;
   line-height: 172.727273%; /* 38/22 */
@@ -108,12 +138,38 @@ ul {
 .about_us-text span {
   font-weight: 600;
 }
-/* why_us-section */
 
+.about_us-title {
+  margin-bottom: 40px;
+}
+/* why_us-section */
+.why_us-section {
+  padding-top: 88px;
+  padding-bottom: 48px;
+}
+.why_us-title {
+  margin-bottom: 48px;
+}
 /* procedures-section */
+.procedures-section {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.procedure-title {
+  margin-bottom: 48px;
+}
 .procedures-item {
   font-size: 22px;
   line-height: 118.181818%; /* 26/22 */
+}
+
+/* Contactsection */
+.contact-section {
+  padding-top: 48px;
+  padding-bottom: 96px;
+}
+.contact-title {
+  margin-bottom: 48px;
 }
 .contact-text {
   font-size: 22px;
