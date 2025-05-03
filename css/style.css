@@ -1,4 +1,4 @@
- @font-face {
+@font-face {
   font-display: swap;
   font-family: 'Play';
   font-weight: 700;
@@ -68,6 +68,8 @@ h2 span {
 }
 
 ul {
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 .container {
@@ -91,10 +93,44 @@ ul {
   font-weight: 800;
 }
 
+/* Header */
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header-nav {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header-list {
+  flex-grow: 1;
+  justify-content: center;
+  display: flex;
+  gap: 56px;
+}
+
+.header-list-social {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
 /* Hero section */
 .hero-section {
   padding-top: 16.5px;
   padding-bottom: 98px;
+}
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+}
+.hero-container-text {
+  margin-left: 106px;
 }
 
 .hero-title {
@@ -126,6 +162,16 @@ ul {
 }
 
 /* About_us-section */
+.about_us-container {
+  display: flex;
+  gap: 28px;
+}
+.about_us-container-text {
+  display: flex;
+  flex-direction: column;
+  max-width: 709px;
+}
+
 .about_us-section {
   padding-top: 98px;
   padding-bottom: 88px;
@@ -133,6 +179,7 @@ ul {
 .about_us-text {
   font-size: 22px;
   line-height: 172.727273%; /* 38/22 */
+   max-width: 670px;
 }
 
 .about_us-text span {
