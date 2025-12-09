@@ -1,0 +1,44 @@
+:root {
+  --primary-color-light: #ffffff;
+  --primary-color-blue-400: #2b7fff;
+  --primary-color-blue-800: #011c44;
+  --secondary-color-gray-light: #747272;
+  --secondary-color-gray-dark: #4a4a4a;
+  --secondary-color-blue: #011f4a;
+  --secondary-color-yellow: #ffd02b;
+}
+
+/* Base*/
+body {
+  color: var(--primary-color-blue-800);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.link:hover {
+  color: var(--primary-color-blue-400);
+}
+
+.section-title .accent {
+  color: var(--primary-color-blue-400);
+}
+/*Hero section*/
+.hero-title {
+  color: var(--primary-color-blue-400);
+}
+
+.batton {
+  color: var(--primary-color-light);
+  background-color: var(--primary-color-blue-400);
+  border-radius: 32px;
+  border: 1px solid var(--primary-color-blue-400);
+}
+.batton:hover {
+  color: var(--primary-color-blue-800);
+  background-color: transparent;
+  coursor: pointer;
+}
+
+
